@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Router VanillaJs</title>
+</head>
+<body>
+    <header>
+        <div>
+            <button id="Home" onclick="ROUTER.load('home')">Home </button>
+        </div>
+        <div>
+            <button id="About" onclick="ROUTER.load('about')">About</button>
+        </div>
+        <div>
+            <button id="Contact" onclick="ROUTER.load('contact')">Contact</button>
+        </div>
+    </header>
+
+    <div id="content"></div>
+
+    <script src="./js/router.js"></script>
+    <script src="./js/routes.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>
+
